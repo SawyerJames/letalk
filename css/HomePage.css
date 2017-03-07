@@ -1,0 +1,342 @@
+/*-------------------------------part curousel------------------------------------*/
+	.carousel_img{
+		width: 100%;
+		height: 600px;
+	}
+/*--------------------------------- clear both ---------------------------------------*/
+	.clearfix:after,.clearfix:before{
+	  content: " ";
+	  display: table;
+	}
+	.clearfix:after{
+	  clear: both;
+	}
+	/*...........................compatible IE5/6/7*/
+	.clearfix{
+	  zoom: 1;
+	}
+/*-------------------------------part advantage------------------------------------*/
+	.advantage{
+		height: 700px;
+		width: 100%;
+		background: #FFFFFF;
+	}
+	.advantage_title{
+		padding-top: 71px;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.advantage_title .title_txt{
+		display: block;
+		margin-bottom: 30px;
+		color: #333333;
+	}
+	.advantage_title .bar{
+		display: block;
+		margin: 0 auto 48px;
+		width: 50px;
+		border-bottom: 4px solid #0e2e5f;
+	}
+	.advantage_content div{
+		float: left;
+		width: 20%;
+		height: auto;
+		margin-left: 4%;
+	}
+	.advantage_content span{
+		display: block;
+		width: 100%;
+	}
+	.advantage_img{
+		width: 100%;
+		height: 200px;
+		border-radius: 4px;
+		opacity: 1;
+	}
+	.advantage_img:hover{
+		opacity: 0.6;
+	}
+	.advantage_content_title{
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		color: #333333;
+		margin: 20px 0 12px 0; 
+	}
+	.advantage_content .bar{
+		margin: 0 auto 12px;
+		width: 30px;
+		border-bottom: 3px solid #0e2e5f;
+	}
+	.advantage_content .text{
+		font-size: 14px;
+		text-align: justify;
+		margin: 0 auto;
+		color: #888888;
+	}
+	.advantage_btn span{
+		display: block;
+		text-decoration: none;
+		background: #b60f29;
+		width: 140px;
+		height: 45px;
+		line-height: 45px;
+		font-size: 16px;
+		font-weight: bold;
+		border-radius: 6px;
+		text-align: center;
+		margin: 4% auto;
+		color: #ffffff;
+		box-shadow: 1px 1px 6px #888888;
+	}
+	.advantage_btn span:hover{
+		background: #0e2e5f;
+		color: #ffffff;
+	}
+/*-------------------------------part hope------------------------------------*/
+	.hope{
+		width: 100%;
+		height: 300px;
+		background: #0e2e5f;
+	}
+	.hope_title{
+		padding-top: 71px;
+		text-align: center;
+	}
+	.hope_title .title{
+		display: block;
+		margin-bottom: 44px;
+		color: #ffffff;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.hope_title .txt{
+		color: #F2F2F2;
+		font-size: 12px;
+		line-height: 20px;
+	}
+/*-------------------------------part course------------------------------------*/
+	.course{
+		width: 100%;
+		height: 600px;
+		background-color: #f6f7fb;
+	}
+	.course_title{
+		padding-top: 71px;
+		text-align: center;
+	}
+	.course_title .bar{
+		display: block;
+		margin: 30px auto 48px;
+		width: 50px;
+		border-bottom: 4px solid #0e2e5f;
+	}
+	.course_title .title{
+		display: block;
+		margin-bottom: 20px;
+		color: #333333;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.course_box{
+		text-align: center;
+	}
+	.course_box>div{
+		width: 35%;
+		height: auto;
+		float: left;
+	}
+	.course_box .course_img{
+		position: relative;
+		width: 90%;
+		height: 258px;
+		background: #A9A6A6;
+		border-radius: 4px;
+		box-shadow: 1px 1px 6px #000000;
+	}
+	.course_box .C1{
+		background: url(../images/HomePage/course_1.jpg) no-repeat;
+		left: 35%;
+	}
+	.course_box .C2{
+		background: url(../images/HomePage/course_2.jpg) no-repeat;
+		right: -60%;
+	}
+	.course_box span{
+		display: none;
+		font-size:30px;
+		font-weight: bold;
+		width: 100%;
+		height: 258px;
+		line-height: 258px;
+		color: #FFFFFF;
+		background: rgba(0,0,0,.3);
+		border-radius: 4px;
+		box-shadow: 1px 1px 5px #000000;
+	}
+	.ct1,.ct2{
+		display: inline-block;
+		color: #ffffff;
+		width: 160px;
+		height: 40px;
+		font-size: 16px;
+		font-weight: bold;
+		background: #b60f29;
+		border-radius: 6px;
+		box-shadow: 1px 1px 6px #888888;
+		text-align: center;
+		margin-top: 40px;
+		line-height: 40px;
+		cursor: pointer;
+	}
+	.course_txtBox .ct1{
+		position: relative;
+		left: 22%;
+	}
+	.course_txtBox .ct2{
+		position: relative;
+		right: -53%;
+	}
+/*-------------------------------part teacher------------------------------------*/
+	.teacher{
+		width: 100%;
+		height: 600px;
+		background-color: #ffffff;
+	}
+	.teacher_title{
+		padding-top: 70px;
+		text-align: center;
+	}
+	.teacher_title .bar{
+		display: block;
+		margin: 30px auto;
+		width: 50px;
+		border-bottom: 4px solid #0e2e5f;
+	}
+	.teacher_title .title{
+		display: block;
+		margin-bottom: 20px;
+		color: #333333;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.teacher_title .txt{
+		display: inline-block;
+		width: 434px;
+		text-align: center;
+		color: #888888;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.tea_msg ul li{
+		float: left;
+		width: 15%;
+		margin: 3% 5% 0 0;
+	}
+	.tea_msg ul li div{
+		width: 116px;
+		height: 116px;
+		border-radius: 64px;
+		border: 2px solid #E4E4E4;
+	}
+	.tea_msg ul li div img {
+		margin: 28px 25px;
+	}
+	.tea_msg ul li:first-child{
+		margin-left: 15%;
+	}
+	.tea_msg ul li:last-child{
+		margin-right: 0;
+	}
+	.tea_msg .clear{
+		clear: both;
+	}
+	.tea_msg ul li span{
+		display: block;
+	}
+	.tea_msg ul li .num{
+		text-align: center;
+		font-size: 30px;
+		color: #b60f29;
+		font-weight: bold;
+		padding:5% 30% 5% 0;
+	}
+	.tea_msg ul li .tea_bar{
+		width: 30px;
+		display: block;
+		margin:10px 0 30px 23%;
+		border-bottom: 3px solid #DADADA;
+	}
+	.tea_msg ul li .tea_txt{
+		display: inline-block;
+		width: 100px;
+		font-size: 20px;
+		text-align: center;
+		margin-left: 7%;
+	}
+/*-------------------------------part gul------------------------------------*/
+	.gul{
+		width: 100%;
+		height: 250px;
+		background-color: #0e2e5f;
+	}
+	.gul_title{
+		padding-top: 70px;
+		text-align: center;
+	}
+	.gul_title .title{
+		display: block;
+		margin-bottom: 20px;
+		color: #ffffff;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.gul_title .txt{
+		display: inline-block;
+		color: #F2F2F2;
+		width: 434px;
+		text-align: center;
+		font-size: 12px;
+		line-height: 20px;
+	}
+/*-------------------------------part partner------------------------------------*/
+	.partner{
+		width: 100%;
+		height: 400px;
+		background: #f6f7fb;
+		position: relative;
+	}
+	.partner_title{
+		padding-top: 60px;
+		text-align: center;
+	}
+	.partner_title .title{
+		display: block;
+		margin-bottom: 20px;
+		color: #333333;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.partner_title .bar{
+		display: block;
+		margin: 0 auto;
+		width: 50px;
+		border-bottom: 4px solid #0e2e5f;
+	}
+	.partner_carousel ul{
+		height: 150px;
+		width: 90%;
+		background: #f6f7fb;
+		margin: 40px auto 0;
+	}
+	.partner_carousel ul li img{
+		float: left;
+		width: 20%;
+		height: 150px;
+		margin-left: 4%;
+		border-radius: 15px;
+	}
+	.partner_carousel ul li img:hover{
+		opacity: 0.5
+	}

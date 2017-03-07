@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width,minimum-scale=1,maximum-scale=1'>
+	<link rel="stylesheet" type="text/css" href="css/common/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/common/header.css">
+	<link rel="stylesheet" type="text/css" href="css/common/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/common/edslider.css">
+	<link rel="stylesheet" type="text/css" href="css/common/animate-custom.css">
+	<link rel="stylesheet" type="text/css" href="css/HomePage.css">
+	<link rel="stylesheet" type="text/css" href="css/le_window.css">
+	<title>letalk</title>
+</head>
+<body>
+<!-- **************************** 注册登录 ********************************* -->
+	<div id="bg" class="hide"></div>
+	<div id="log-reg" class="hide le_window">
+		<div class="header">
+			<img class="le_logo" src="images/common/logo.jpg">
+			<img class="close" id="close" src="images/common/exit.png">
+			<span class="le_bar"></span>
+		</div>
+		<div class="bodyer">
+			<div class="form">
+				<form name="log" class="log" autocomplete="off" method="post">
+					<div class="form-group le_tel">
+						<img class="form-tel" src="images/common/email.jpg">
+						<span class="form-bar"></span>
+						<input type="text" id="log-phone" placeholder="请输入您注册的手机号"/>
+						<label class="userTxt">用户名错误</label>
+					</div>		
+					<div class="form-group le_pass">
+						<img class="form-pass" src="images/common/pass.jpg">
+						<span class="form-bar"></span>
+						<input type="password" id="log-password" placeholder="请输入您的密码"/>
+						<label class="passTxt">密码错误</label>
+					</div>
+					<div class="forgPass">
+						<div class="auto_cache">
+							<input type="checkbox" id="cache" name="auto_cache"></input>
+							<span>下次自动登录(维持14日)</span>
+						</div>
+	                    <a href="">忘记密码</a>
+	                </div>
+					<div>
+	                    <input id="log-jump" type="hidden" name="jump" value="">
+	                    <a id="enter" class="btn">登录|Login</a>
+	                </div>
+	                <div>
+	                	<a href="" class="le_reg">立即注册&rsaquo;&rsaquo;</a>
+	                </div>
+				</form>
+			</div>
+		</div>
+	</div>
+<!-- **************************** header信息 ********************************* -->
+	<div class="head_msg">
+		<span class="tel">电话：<span>03358069840</span></span>
+		<span class="ads">地址：河北秦皇岛经济技术开发区珠江道21号</span>
+		<img src="images/common/login.jpg" class="login_img">
+		<span class="login">登录/注册</span>
+	</div>
+<!-- **************************** header主要 ********************************* -->	
+	<div class="head_content">
+		<img src="images/common/logo.jpg" class="logo">
+		<div class="nav">
+			<a href="HomePage.html">首页</a>
+			<a href="html/learn.html">学习理念</a>
+			<a href="html/teacher.html">师资团队</a>
+			<a href="html/course.html">课程介绍</a>
+			<a href="html/msg.html">联系我们</a>
+		</div>
+	</div>
+<!-- **************************** 轮播图 ********************************* -->	
+	<ul class="carousel">
+		<li class="first">
+			<img src="images/HomePage/carousel_1.jpg" class="animated fadeInRight carousel_img">
+		</li>
+		<li class="second">
+			<img src="images/HomePage/carousel_2.jpg" class="animated fadeInRight carousel_img">
+		</li>
+		<li class="third">
+			<img src="images/HomePage/carousel_3.jpg" class="animated fadeInLeft carousel_img">
+		</li>
+	</ul>
+<!-- **************************** 我们的优势 ********************************* -->
+	<div class="advantage">
+		<div class="advantage_title">
+			<span class="title_txt">我们的优势</span>
+			<span class="bar"></span>
+		</div>
+		<div class="advantage_content clearfix">
+			<div>
+				<img src="images/HomePage/adv_1.jpg" class="advantage_img">
+				<span class="advantage_content_title">资深英语外教纯正发音</span>
+				<span class="bar"></span>
+				<span class="text">风趣横生的资深外教，100%来自英语为母语或官方语言的国家，纯正的英文发音让孩子接受地道英语的熏陶，告别中国式英语，爱上英语学习。</span>
+			</div>
+			<div>
+				<img src="images/HomePage/adv_2.jpg" class="advantage_img">
+				<span class="advantage_content_title">母语化教学互动式学习</span>
+				<span class="bar"></span>
+				<span class="text">纯外教授课，浸入式的语言环境，与外教实时互动学习，实时纠错，远离汉语干扰，快速建立英语思维，让孩子开口说英语。</span>
+			</div>
+			<div>
+				<img src="images/HomePage/adv_3.jpg" class="advantage_img">
+				<span class="advantage_content_title">一对一个性化教学</span>
+				<span class="bar"></span>
+				<span class="text">外教一对一，量身定制个性化的教材和教学计划，让孩子获得更好的学习体验。班主任无论课前、课中还是课后，为孩子和家长及时解决各种问题，确保达到最佳学习效果。</span>
+			</div>
+			<div>
+				<img src="images/HomePage/adv_4.jpg" class="advantage_img">
+				<span class="advantage_content_title">短时轻松高效</span>
+				<span class="bar"></span>
+				<span class="text">每节课20分钟左右，随时随地利用碎片时间进行学习，高频练习，有针对性、轻松高效的学习，当然速见成效。</span>
+			</div>
+		</div>
+		<div class="advantage_btn">
+			<a href="html/course.html"><span>Get More</span></a>
+		</div>
+	</div>
+<!-- **************************** 我们的愿景 ********************************* -->
+		<div class="hope">
+			<div class="hope_title">
+				<span class="title">我们的愿景</span>
+				<span class="txt">为学生铺平通向未来成功的道路，为每个学生成为积极的全球化社会公民提供平台。</span>
+			</div>
+		</div>
+		<div class="mask"></div>
+<!-- **************************** 我们的课程 ********************************* -->
+	<div class="course">
+		<div class="course_title">
+			<span class="title">我们的课程</span>
+			<span class="bar"></span>
+		</div>
+		<div class="course_box clearfix">
+			<div>
+				<div class="course_img C1">
+					<span>青少儿英语课程</span>
+				</div>
+			</div>
+			<div>
+				<div class="course_img C2">
+					<span>自然拼读</span>
+				</div>
+			</div>
+		</div>
+		<div class="course_txtBox">
+			<span class="ct1">青少儿英语课程</span>
+			<span class="ct2">自然拼读</span>
+		</div>
+	</div>
+<!-- **************************** 师资团队 ********************************* -->
+	<div class="teacher">
+		<div class="teacher_title">
+			<span class="title">师资团队</span>
+			<span class="bar"></span>
+			<span class="txt">资深外教团队，来自美国、加拿大等英美系国家，具有国际专业英语教学资格认证（TEFL/TESOL）及不同行业背景，根据孩子的兴趣有针对性选择外教。</span>
+		</div>
+		<div class="tea_msg">
+			<ul>
+				<li>
+					<div>
+						<img src="images/HomePage/tea_1.jpg">
+					</div>
+					<span class="num" id="num_1"></span>
+					<span class="tea_bar"></span>
+					<span class="tea_txt">Graduates</span>
+				</li>
+				<li>
+					<div>
+						<img src="images/HomePage/tea_2.jpg">
+					</div>
+					<span class="num" id="num_2"></span>
+					<span class="tea_bar"></span>
+					<span class="tea_txt">Certified Teachers</span>
+				</li>
+				<li>
+					<div>
+						<img src="images/HomePage/tea_3.jpg">
+					</div>
+					<span class="num" id="num_3"></span>
+					<span class="tea_bar"></span>
+					<span class="tea_txt">Student Campuses</span>
+				</li>
+				<li>
+					<div>
+						<img src="images/HomePage/tea_4.jpg">
+					</div>
+					<span class="num" id="num_4"></span>
+					<span class="tea_bar"></span>
+					<span class="tea_txt">Students</span>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+<!-- **************************** 上课流程 ********************************* -->
+	<div class="gul">
+		<div class="gul_title">
+			<span class="title">上课流程</span>
+			<span class="txt">资深外教团队，来自美国、加拿大等英美系国家，具有国际专业英语教学资格认证（TEFL/TESOL）及不同行业背景，根据孩子的兴趣有针对性选择外教。</span>
+		</div>
+	</div>
+<!-- **************************** 合作伙伴 ********************************* -->
+	<div class="partner">
+		<div class="partner_title">
+			<span class="title">合作伙伴</span>
+			<span class="bar"></span>
+		</div>
+		<div class="partner_carousel clearfix">
+			<ul>
+				<li><img src="images/HomePage/adv_1.jpg" class="partner_img"></li>
+				<li><img src="images/HomePage/adv_1.jpg" class="partner_img"></li>
+				<li><img src="images/HomePage/adv_1.jpg" class="partner_img"></li>
+				<li><img src="images/HomePage/adv_1.jpg" class="partner_img"></li>
+			</ul>
+		</div>
+	</div>
+<!-- **************************** footer ********************************* -->
+		<div class="footer">
+			<div class="footer_list clearfix">
+				<ul>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+				</ul>
+				<ul>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+				</ul>
+				<ul>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+				</ul>
+				<ul>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+				</ul>
+				<ul>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+					<li><a href="">导航测试</a></li>
+				</ul>
+			</div>
+			<div class="footer_msg">
+				<span class="tel">电话：18274837736</span>
+				<span class="ads">地址：卢卡斯简单快乐放假啊克里斯多</span>				
+			</div>
+		</div>
+<!-- **************************** javascript ********************************* -->
+	<script type="text/javascript" src="lib/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.edslider.js"></script>
+	<script type="text/javascript" src="js/HomePage.js"></script>
+	<script type="text/javascript" src="js/common_login.js"></script>
+	<script type="text/javascript">
+		var i=0,j=0,k=0,l=0;
+		function num_1(){
+		   i = i + 1;
+		   var o = document.getElementById('num_1');
+		   o.innerHTML = i.toString() + "%";
+		   if(i<120) setTimeout('num_1()',10);
+		}
+		function num_2(){
+		   j = j + 1;
+		   var o = document.getElementById('num_2');
+		   o.innerHTML = j.toString() + "%";
+		   if(j<92) setTimeout('num_2()',10);
+		}
+		function num_3(){
+		   k = k + 1;
+		   var o = document.getElementById('num_3');
+		   o.innerHTML = k.toString() + "%";
+		   if(k<97) setTimeout('num_3()',10);
+		}
+		function num_4(){
+		   l = l + 1;
+		   var o = document.getElementById('num_4');
+		   o.innerHTML = l.toString() + "%";
+		   if(l<90) setTimeout('num_4()',10);
+		}
+		num_1();num_2();num_3();num_4();
+	</script>
+</body>
+</html>
