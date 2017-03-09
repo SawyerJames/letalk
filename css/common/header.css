@@ -48,17 +48,33 @@
 		height: 60px;
 		width: 100%;
 		background-color: #ffffff;
+		z-index: 10;
+	}
+	.head_content_active{
+		height: 65px;
+		position: fixed;
+		top: 0;
+		box-shadow: 10px 0 10px #000000;
 	}
 	.logo{
-		margin-left:142px;
+		height: 50px;
+		width: 180px;
+		margin-left:55px;
+	}
+	.logo_active{
+		margin-top:5px;
 	}
 	.nav{
 		position: absolute;
-		right: 158px;
+		right: 55px;
+		top: 40px;
 		display: inline-block;
 		margin: 20px auto;
 		font-size: 16px;
 		font-weight: bold;
+	}
+	.nav_active{
+		top: 0px;
 	}
 	.nav a{
 		margin-right: 36px;

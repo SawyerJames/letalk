@@ -19,12 +19,12 @@
 	.advantage{
 		height: 700px;
 		width: 100%;
-		background: #FFFFFF;
+		background: #f6f7fb;
 	}
 	.advantage_title{
 		padding-top: 71px;
 		text-align: center;
-		font-size: 30px;
+		font-size: 26px;
 		font-weight: bold;
 	}
 	.advantage_title .title_txt{
@@ -41,8 +41,11 @@
 	.advantage_content div{
 		float: left;
 		width: 20%;
-		height: auto;
+		height: 380px;
 		margin-left: 4%;
+		margin-top: 20px;
+		background: #FFFFFF;
+		opacity: 0;
 	}
 	.advantage_content span{
 		display: block;
@@ -51,17 +54,17 @@
 	.advantage_img{
 		width: 100%;
 		height: 200px;
-		border-radius: 4px;
+		border-radius: 4px 4px 0 0;
 		opacity: 1;
 	}
 	.advantage_img:hover{
 		opacity: 0.6;
 	}
 	.advantage_content_title{
-		font-size: 18px;
+		font-size: 16px;
 		font-weight: bold;
 		text-align: center;
-		color: #333333;
+		color: #b60f29;
 		margin: 20px 0 12px 0; 
 	}
 	.advantage_content .bar{
@@ -70,6 +73,8 @@
 		border-bottom: 3px solid #0e2e5f;
 	}
 	.advantage_content .text{
+		display: block;
+		width: 90%;
 		font-size: 14px;
 		text-align: justify;
 		margin: 0 auto;
@@ -97,29 +102,93 @@
 /*-------------------------------part hope------------------------------------*/
 	.hope{
 		width: 100%;
-		height: 300px;
+		height: 350px;
 		background: #0e2e5f;
+		position: relative;
 	}
-	.hope_title{
-		padding-top: 71px;
+	.hope>div:nth-child(1),.hope>div:nth-child(2){
+		width: 90%;
+		height: 220px;
+		top: 65px;
+		left: 7%;
+		position: absolute;
+	}
+	.hope>div:nth-child(1){
+		display: block;
+	}
+	.hope>div:nth-child(2){
+		display: none;
+	}
+	.hope_left p:nth-child(1){
+		display: block;
+		width: 70%;
+		height: auto;
+		font-size: 25px;
+		color: #f6f7fb;
+
+	}
+	.hope_left p:nth-child(2){
+		display: block;
+		width: 70%;
+		height: auto;
+		text-align: right;
+		font-size: 20px;
+		color: #f6f7fb;
+		margin-top: 20px;
+	}
+	.hope_left p:nth-child(3){
+		display: block;
+		width: 70%;
+		height: auto;
+		text-align: right;
+		font-size: 14px;
+		font-style: italic;
+		color: #f6f7fb;
+		margin-top: 10px;
+	}
+	.hope_right{
+		position: absolute;
+		right: 6%;
+		top: 0;
+		width: 220px;
+		height: 220px;
+		border-radius: 110px;
+		background: #832424;
+	}
+	.hope_img1{
+		background: url(../images/HomePage/hope_img1.jpg);
+	}
+	.hope_img2{
+		background: url(../images/HomePage/hope_img2.jpg);
+	}
+	.hope>div:nth-child(3){
 		text-align: center;
 	}
-	.hope_title .title{
-		display: block;
-		margin-bottom: 44px;
-		color: #ffffff;
-		font-size: 30px;
-		font-weight: bold;
+	.hope_btn1,.hope_btn2{
+		display: inline-block;
+		width: 12px;
+		height: 12px;
+		border-radius: 6px;
+		background: #f6f7fb;
+		margin: 310px 10px 0 0;
+		vertical-align: middle;
 	}
-	.hope_title .txt{
-		color: #F2F2F2;
-		font-size: 12px;
-		line-height: 20px;
+	.hope .hope_btn_active{
+		background: #B60F29;
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
 	}
+	.hope span:hover{
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
+	}
+
 /*-------------------------------part course------------------------------------*/
 	.course{
 		width: 100%;
-		height: 600px;
+		height: 800px;
 		background-color: #f6f7fb;
 	}
 	.course_title{
@@ -136,67 +205,101 @@
 		display: block;
 		margin-bottom: 20px;
 		color: #333333;
-		font-size: 30px;
+		font-size: 26px;
 		font-weight: bold;
 	}
 	.course_box{
+		width: 100%;
+		height: auto;
 		text-align: center;
+		margin-top: 140px;
+		opacity: 0;
 	}
-	.course_box>div{
+	.course_box div{
 		width: 35%;
 		height: auto;
-		float: left;
+		margin: 0 23px;
+		display: inline-block;
+	}
+	.course_box>div{
+		position: relative;	
+	}
+	.course_box .course_content{
+		display: none;
+	}
+	.course_box .course_mask{
+		position: absolute;
+		width: 420px;
+		height: 400px;
+		top: 0;
+		left: 3px;
+		background: #0e2e5f;
+		opacity: .7;
+	}
+	.course_box .course_content span,.course_box .course_content a{
+		width: 140px;
+		height: 35px;
+		display: block;
+		position: absolute;
+		color: #FFFFFF;
+		font-size: 14px;
+		font-weight: bold;
+		border-radius: 5px;
+		padding-top: 15px;
+		opacity: 0;
+		left: 40px;
+	}
+	.course_box .course_content .btn1{
+		margin-top: 120px;
+		background: #b60f29;
+	}
+	.course_box .course_content .btn1:hover{
+		color: #b60f29;
+		background: #f6f7fb;
+	}
+	.course_box .course_content .btn2{
+		margin-top: 200px;
+		border:2px solid #f6f7fb;
+	}
+	.course_box .course_content .btn2:hover{
+		color: #5F5F5F;
+		background: #f6f7fb;
 	}
 	.course_box .course_img{
-		position: relative;
-		width: 90%;
-		height: 258px;
-		background: #A9A6A6;
-		border-radius: 4px;
-		box-shadow: 1px 1px 6px #000000;
+		width: 420px;
+		height: 400px;
+		margin-bottom: -4px;
 	}
 	.course_box .C1{
 		background: url(../images/HomePage/course_1.jpg) no-repeat;
-		left: 35%;
 	}
 	.course_box .C2{
 		background: url(../images/HomePage/course_2.jpg) no-repeat;
-		right: -60%;
 	}
-	.course_box span{
-		display: none;
-		font-size:30px;
-		font-weight: bold;
-		width: 100%;
-		height: 258px;
-		line-height: 258px;
-		color: #FFFFFF;
-		background: rgba(0,0,0,.3);
-		border-radius: 4px;
-		box-shadow: 1px 1px 5px #000000;
+	.course_box .course_msg{
+		width: 440px;
+		height: 100px;
+		background: #f6f7fb;
+		position: relative;
 	}
-	.ct1,.ct2{
+	.course_msg span{
 		display: inline-block;
-		color: #ffffff;
-		width: 160px;
-		height: 40px;
-		font-size: 16px;
-		font-weight: bold;
-		background: #b60f29;
-		border-radius: 6px;
-		box-shadow: 1px 1px 6px #888888;
-		text-align: center;
-		margin-top: 40px;
-		line-height: 40px;
-		cursor: pointer;
 	}
-	.course_txtBox .ct1{
-		position: relative;
-		left: 22%;
+	.course_msg .num{
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		left: -20px;
+		background: #0e2e5f;
+		font-size: 40px;
+		color: #f6f7fb;
 	}
-	.course_txtBox .ct2{
-		position: relative;
-		right: -53%;
+	.course_msg .num span{
+		margin-top: 20px;
+	}
+	.course_msg .txt{
+		margin: 30px 0 0 40px;
+		font-size: 25px;
 	}
 /*-------------------------------part teacher------------------------------------*/
 	.teacher{
@@ -218,7 +321,7 @@
 		display: block;
 		margin-bottom: 20px;
 		color: #333333;
-		font-size: 30px;
+		font-size: 26px;
 		font-weight: bold;
 	}
 	.teacher_title .txt{
@@ -257,7 +360,7 @@
 	}
 	.tea_msg ul li .num{
 		text-align: center;
-		font-size: 30px;
+		font-size: 26px;
 		color: #b60f29;
 		font-weight: bold;
 		padding:5% 30% 5% 0;
@@ -289,7 +392,7 @@
 		display: block;
 		margin-bottom: 20px;
 		color: #ffffff;
-		font-size: 30px;
+		font-size: 26px;
 		font-weight: bold;
 	}
 	.gul_title .txt{
@@ -315,7 +418,7 @@
 		display: block;
 		margin-bottom: 20px;
 		color: #333333;
-		font-size: 30px;
+		font-size: 26px;
 		font-weight: bold;
 	}
 	.partner_title .bar{

@@ -1,18 +1,18 @@
 ;$(function(){
 	//param
-	var course_1 = $('.C1');
-	var course_2 = $('.C2');
-	var course_txt_1 = course_1.find('span');
-	var course_txt_2 = course_2.find('span');
-	var ct1 = $('.ct1');
-	var ct2 = $('.ct2');
+	var  c1 = $('.C1'),
+		 c2 = $('.C2'),
+		 course_content1 = $('.mask1'),
+		 course_content2 = $('.mask2'),
+		 mask1_Btn1 = course_content1.find('.btn1'),
+		 mask1_Btn2 = course_content1.find('.btn2'),
+		 mask2_Btn1 = course_content2.find('.btn1'),
+		 mask2_Btn2 = course_content2.find('.btn2');
 	// main function
 	function main () {
 		edslider();
-		course1(course_1);
-		course1(ct1);
-		course2(course_2);
-		course2(ct2);
+		course1();
+		course2();
 	}
 	// header carousel function
 	function edslider () {
@@ -22,25 +22,30 @@
 			interval  : 3000
 		});
 	}
-	function course1 (param) {
-		param.on('mouseenter', function() {
-			course_txt_1.animate({fontSize: "35px"}, 50).css('display', 'inline-block');
-			ct1.css({color: '#ffffff',background: '#0e2e5f'});
+	//function course mouse event
+	function course1 () {
+		c1.mouseenter(function () {
+			course_content1.show();
+			mask1_Btn1.animate({opacity: 1,left:'160px'}, 100);
+			mask1_Btn2.animate({opacity: 1,left:'160px'}, 100);
 		});
-		param.on('mouseleave', function() {
-			course_txt_1.animate({fontSize: "30px"}, 100).hide();
-			ct1.css({color: '#ffffff',background: '#b60f29'});
+		course_content1.mouseleave(function () {
+			course_content1.hide();
+			mask1_Btn1.animate({opacity: 0,left:'40px'}, 10);
+			mask1_Btn2.animate({opacity: 0,left:'40px'}, 10);
 		});
 	}
-	function course2 (param) {
-		param.on('mouseenter', function() {
-			course_txt_2.animate({fontSize: "35px"}, 50).css('display', 'inline-block');
-			ct2.css({color: '#ffffff',background: '#0e2e5f'});
+	function course2 () {
+		c2.mouseenter(function () {
+			course_content2.show();
+			mask2_Btn1.animate({opacity: 1,left:'160px'}, 100);
+			mask2_Btn2.animate({opacity: 1,left:'160px'}, 100);
 		});
-		param.on('mouseleave', function() {
-			course_txt_2.animate({fontSize: "30px"}, 100).hide();
-			ct2.css({color: '#ffffff',background: '#b60f29'});
-		});		
+		course_content2.mouseleave(function () {
+			course_content2.hide();
+			mask2_Btn1.animate({opacity: 0,left:'40px'}, 10);
+			mask2_Btn2.animate({opacity: 0,left:'40px'}, 10);
+		});
 	}
 	// API
 	main();
