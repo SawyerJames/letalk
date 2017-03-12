@@ -7,7 +7,7 @@
 .picture{
 	width: 100%;
 	height: 500px;
-	background: url(../images/HomePage/carousel_1.jpg) no-repeat;
+	background: url(../images/learn/picture.png) no-repeat;
 	background-size: cover;
 }
 /*------------------------------ learn ------------------------------------*/
@@ -147,18 +147,22 @@
 /*------------------------------ heading_3 ------------------------------------*/
 	.heading_3{
 		width: 100%;
-		height: auto;
-		background: #ffffff;
+		height: 500px;
+		background: url(../images/learn/h3_img.jpg) no-repeat;
+		background-size: cover;
 		text-align: center;
 	}
-	.heading_3 h5{
-		margin-top: 30px;
+	.heading_3 h1{
+		font-size: 50px;
+		color: #FFFFFF;
+		text-align: right;
+		padding:120px 100px 0 0;
 	}
-	.h3_img{
-		width: 80%;
-		height: 500px;
-		margin: 40px auto;
-		border-radius: 5px;
+	.heading_3 p{
+		text-align: right;
+		font-size: 20px;
+		color: #FFFFFF;
+		padding: 50px 120px 0 0
 	}
 /*------------------------------ heading_4 ------------------------------------*/
 	.heading_4{
@@ -175,17 +179,17 @@
 		margin: 20px 10px;
 	}
 	.heading_4 img{
-		width: 80px;
-		height: 80px;
+		width: 140px;
+		height: 140px;
 		display: block;
-		margin: 50px auto;
+		margin: 0px auto;
 	}
 	.h4_img{
-		width: 180px;
-		height: 180px;
+		width: 150px;
+		height: 150px;
 		margin: 0 20px;
-		border-radius: 100px;
-		background: #FFC700;
+		border-radius: 75px;
+		background: #0e2e5f;
 	}
 	.heading_4 span{
 		display: block;

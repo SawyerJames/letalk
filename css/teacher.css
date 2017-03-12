@@ -12,8 +12,8 @@
 }
 h1{
 	text-align: center;
-	font-size: 40px;
-	color: #323232;
+	font-size: 30px;
+	color: #333333;
 	padding-top: 40px;
 }
 .content{
@@ -21,13 +21,13 @@ h1{
 }
 .content div{
 	display: inline-block;
-	margin: 30px 20px 40px;
+	margin: 50px 15px 50px;
 	vertical-align: top;
 }
 .img{
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
 	background: #FFBA67;
 }
 .content span{
@@ -35,13 +35,16 @@ h1{
 	font-size: 20px;
 	margin-top: 10px;
 }
-.content .txt_1{
+.content h5{
 	width: 300px;
+	color: #b60f29;
 	margin-top: 15px;
 	font-size: 22px;
+	font-weight: normal;
 }
-.content .txt_2{
+.content span{
 	width: 300px;
+	color: #7B7B7B;
 	height: auto;
 	font-size: 14px;
 	text-align: center;
