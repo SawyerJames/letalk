@@ -56,9 +56,15 @@
 		height: 200px;
 		border-radius: 4px 4px 0 0;
 		opacity: 1;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}
 	.advantage_img:hover{
 		opacity: 0.6;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}
 	.advantage_content_title{
 		font-size: 16px;
@@ -94,10 +100,16 @@
 		margin: 4% auto;
 		color: #ffffff;
 		box-shadow: 1px 1px 6px #888888;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}
 	.advantage_btn span:hover{
 		background: #0e2e5f;
 		color: #ffffff;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}
 /*-------------------------------part hope------------------------------------*/
 	.hope{
@@ -115,11 +127,17 @@
 	}
 	.hope>div:nth-child(1){
 		opacity: 1;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}
 	.hope>div:nth-child(2){
 		margin-top: 500px;
 		display: none;
 		opacity: 0;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}
 	.hope_left p:nth-child(1){
 		display: block;
@@ -185,8 +203,10 @@
 		width: 20px;
 		height: 20px;
 		border-radius: 10px;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}
-
 /*-------------------------------part course------------------------------------*/
 	.course{
 		width: 100%;
@@ -254,18 +274,30 @@
 	.course_box .course_content .btn1{
 		margin-top: 120px;
 		background: #b60f29;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}
 	.course_box .course_content .btn1:hover{
 		color: #b60f29;
 		background: #f6f7fb;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}
 	.course_box .course_content .btn2{
 		margin-top: 200px;
 		border:2px solid #f6f7fb;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}
 	.course_box .course_content .btn2:hover{
 		color: #5F5F5F;
 		background: #f6f7fb;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}
 	.course_box .course_img{
 		width: 420px;
@@ -488,7 +520,13 @@
 		margin-left: 4%;
 		border-radius: 15px;
 		box-shadow: 1px 1px 3px #B5B5B5;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}
 	.partner_carousel ul li img:hover{
 		opacity: 0.5;
+		-webkit-transition: all .35s;
+		-o-transition: all .35s;
+		transition: all .35s;
 	}

@@ -40,6 +40,7 @@
 	}
 	.learn ul li {
 		margin: 0px;
+		opacity: 0;
 	}
 	.learn ul li .img{
 		width: 280px;
@@ -82,14 +83,17 @@
 		color: #f6f7fb;
 	}
 	.F1{
-		top: 120px;
+		opacity: 0;
+		top: 0px;
 		right: 30%;
 	}
 	.F2{
-		top: 250px;
+		opacity: 0;
+		top: 0px;
 		right: 27%;
 	}
 	.F3{
+		opacity: 0;
 		bottom: 70px;
 		right: 30%;
 	}
@@ -144,6 +148,9 @@
 		text-align: justify;
 		vertical-align: top;
 	}
+	.heading_2_content{
+		opacity: 0;
+	}
 /*------------------------------ heading_3 ------------------------------------*/
 	.heading_3{
 		width: 100%;
@@ -153,14 +160,16 @@
 		text-align: center;
 	}
 	.heading_3 h1{
-		font-size: 50px;
+		font-size: 30px;
 		color: #FFFFFF;
 		text-align: right;
 		padding:120px 100px 0 0;
+		opacity: 0;
 	}
 	.heading_3 p{
 		text-align: right;
-		font-size: 20px;
+		font-size: 0px;
+		opacity: 0;
 		color: #FFFFFF;
 		padding: 50px 120px 0 0
 	}
@@ -197,4 +206,7 @@
 		font-size: 20px;
 		font-weight: bold;
 		margin-top: 10px;
+	}
+	.h4_content{
+		opacity: 0;
 	}

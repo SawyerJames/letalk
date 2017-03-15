@@ -33,7 +33,7 @@
 				advContent.animate({
 					'opacity': '1',
 					'marginTop': '0'
-				},10);
+				},500);
 			}
 		});
 	}
@@ -45,7 +45,7 @@
 				course_box.animate({
 					'opacity': '1',
 					'marginTop': '0'
-				},10);
+				},500);
 			}
 		});
 	}
@@ -93,15 +93,15 @@
 				$('.gul_1').animate({
 					'opacity': '1',
 					'marginTop': '0'
-				},10,function(){
+				},300,function(){
 					$('.gul_2').animate({
 						'opacity': '1',
 						'marginTop': '0'
-					},10,function(){
+					},300,function(){
 						$('.gul_3').animate({
 							'opacity': '1',
 							'marginTop': '0'
-						},10)
+						},300)
 					})
 				})
 			}
@@ -114,7 +114,7 @@
 			if ( i < j ) {
 				partner_box.animate({
 					'opacity': '1',
-				},10);
+				},500);
 			}
 		});
 	}
