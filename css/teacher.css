@@ -1,112 +1,137 @@
-.nav a:nth-child(3){
-	color: #b60f29;
+.nav a:nth-child(3) {
+    color: #b60f29;
 }
-.nav a:nth-child(1){
-	color: #0e2e5f;
+
+.nav a:nth-child(1) {
+    color: #0e2e5f;
 }
+
+
 /*................................ teacherContent ...................................*/
-.heading_1{
-	width: 100%;
-	height: auto;
-	background: #ffffff;
+
+.heading_1 {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
 }
-h1{
-	text-align: center;
-	font-size: 30px;
-	color: #333333;
-	padding-top: 40px;
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #333333;
+    padding-top: 40px;
 }
-.content{
-	text-align: center;
+
+.content {
+    text-align: center;
 }
-.content div{
-	display: inline-block;
-	margin: 0px 15px 50px;
-	vertical-align: top;
-	opacity: 0;
+
+.content div {
+    display: inline-block;
+    margin: 0px 15px 50px;
+    vertical-align: top;
+    opacity: 0;
 }
-.img{
-	width: 180px;
-	height: 180px;
-	border-radius: 90px;
-	background: #FFBA67;
+
+.img {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    background: #FFBA67;
 }
-.content span{
-	display: block;
-	font-size: 20px;
-	margin-top: 10px;
+
+.content span {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
 }
-.content h5{
-	width: 300px;
-	color: #b60f29;
-	margin-top: 15px;
-	font-size: 22px;
-	font-weight: normal;
+
+.content h5 {
+    width: 300px;
+    color: #b60f29;
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: normal;
 }
-.content span{
-	width: 300px;
-	color: #7B7B7B;
-	height: auto;
-	font-size: 14px;
-	text-align: center;
+
+.content span {
+    width: 300px;
+    color: #7B7B7B;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
 }
+
+
 /*................................ teacherContent ...................................*/
-.heading_2{
-	width: 100%;
-	height: 620px;
-	background: #f6f7fb;
-	text-align: center;
+
+.heading_2 {
+    width: 100%;
+    height: 620px;
+    background: #f6f7fb;
+    text-align: center;
 }
-.heading_2>h5{
-	font-size: 16px;
-	font-weight: normal;
-	color: #949494;
-	margin-top: 10px;
+
+.heading_2>h5 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #949494;
+    margin-top: 10px;
 }
-.heading_2 .bar{
-	display: inline-block;
-	width: 50px;
-	height: 4px;
-	background: #b60f29;
+
+.heading_2 .bar {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background: #b60f29;
 }
-.h2_content{
-	margin: 40px auto;
-	width: 100%;
-	height: auto;
-	text-align: left;
-	background: #b60f29;
-	box-shadow: 1px 1px 10px #000000;
+
+.h2_content {
+    margin: 40px auto;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    background: #b60f29;
+    box-shadow: 1px 1px 10px #000000;
 }
-.h2_content .h2_img{
-	display: inline-block;
-	width: 500px;
-	height: 400px;
-	margin-left: 120px;
-	background: url(./../images/teacher/pageImg.jpg) no-repeat;
+
+.h2_content .h2_img {
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    margin-left: 120px;
+    background: url(./../images/teacher/pageImg.jpg) no-repeat;
 }
-.h2_content>div{
-	margin-left: 100px;
-	display: inline-block;
-	vertical-align: middle;
+
+.h2_content>div {
+    margin-left: 100px;
+    display: inline-block;
+    vertical-align: middle;
 }
-.h2_content ul li{
-	margin: 20px 0 0 150px;
-	opacity: 0;
+
+.h2_content ul li {
+    margin: 20px 0 0 150px;
+    opacity: 0;
 }
-.h2_content ul li img,.h2_content ul li div{
-	display: inline-block;
+
+.h2_content ul li img,
+.h2_content ul li div {
+    display: inline-block;
 }
-.h2_content ul li div{
-	vertical-align: top;
-	margin: 10px 0 0 10px;
-	text-align: left;
-	width: 250px;
+
+.h2_content ul li div {
+    vertical-align: top;
+    margin: 10px 0 0 10px;
+    text-align: left;
+    width: 250px;
 }
-.h2_content h5{
-	color: #FFFFFF;
+
+.h2_content h5 {
+    color: #FFFFFF;
 }
-.h2_content p{
-	margin-top: 10px;
-	font-size: 14px;
-	color: #f6f7fb;
+
+.h2_content p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #f6f7fb;
 }

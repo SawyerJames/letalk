@@ -1,306 +1,327 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name='viewport' content='width=device-width,minimum-scale=1,maximum-scale=1'>
-	<link rel="stylesheet" type="text/css" href="css/common/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/common/header.css">
-	<link rel="stylesheet" type="text/css" href="css/common/footer.css">
-	<link rel="stylesheet" type="text/css" href="css/common/edslider.css">
-	<link rel="stylesheet" type="text/css" href="css/common/animate-custom.css">
-	<link rel="stylesheet" type="text/css" href="css/HomePage.css">
-	<link rel="stylesheet" type="text/css" href="css/common/le_window.css">
-	<link rel="short icon" type="image/ico" href="images/common/favicon.ico" />
-	<title>letalk</title>
-<!-- **************************** SEO ******************************************** -->
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width,minimum-scale=1,maximum-scale=1'>
+    <script type="text/javascript">
+    var DEFAULT_VERSION = "7.0";
+    var ua = navigator.userAgent.toLowerCase();
+    var isIE = ua.indexOf("msie") > -1;
+    var safariVersion;
+    if (isIE) {
+        safariVersion = ua.match(/msie ([\d.]+)/)[1];
+        if (safariVersion <= DEFAULT_VERSION) {
+            self.location = "html/updata.html";
+        }
+    }
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/common/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common/header.css">
+    <link rel="stylesheet" type="text/css" href="css/common/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/common/edslider.css">
+    <link rel="stylesheet" type="text/css" href="css/common/animate-custom.css">
+    <link rel="stylesheet" type="text/css" href="css/HomePage.css">
+    <link rel="stylesheet" type="text/css" href="css/common/le_window.css">
+    <link rel="short icon" type="image/ico" href="images/common/favicon.ico" />
+    <title>letalk</title>
+    <!-- **************************** SEO ******************************************** -->
 </head>
+
 <body>
-<!-- **************************** 注册登录 ********************************* -->
-	<div id="bg" class="hide"></div>
-	<div id="log-reg" class="hide le_window">
-		<div class="header">
-			<img class="le_logo" src="images/common/logo.png">
-			<img class="close" id="close" src="images/common/exit.png">
-			<span class="le_bar"></span>
-		</div>
-		<div class="bodyer">
-			<div class="form">
-				<form name="log" class="log" autocomplete="off" method="post">
-					<div class="form-group le_tel">
-						<img class="form-tel" src="images/common/email.jpg">
-						<span class="form-bar"></span>
-						<input type="text" id="log-phone" placeholder="请输入您注册的手机号"/>
-						<label class="userTxt">用户名错误</label>
-					</div>		
-					<div class="form-group le_pass">
-						<img class="form-pass" src="images/common/pass.jpg">
-						<span class="form-bar"></span>
-						<input type="password" id="log-password" placeholder="请输入您的密码"/>
-						<label class="passTxt">密码错误</label>
-					</div>
-					<div class="forgPass">
-						<div class="auto_cache">
-							<input type="checkbox" id="cache" name="auto_cache"></input>
-							<span>下次自动登录(维持14日)</span>
-						</div>
-	                    <a href="">忘记密码</a>
-	                </div>
-					<div>
-	                    <input id="log-jump" type="hidden" name="jump" value="">
-	                    <a id="enter" class="btn">登录|Login</a>
-	                </div>
-	                <div>
-	                	<a href="" class="le_reg">立即注册&rsaquo;&rsaquo;</a>
-	                </div>
-				</form>
-			</div>
-		</div>
-	</div>
-<!-- **************************** header信息 ********************************* -->
-	<div class="head_msg">
-		<span class="tel">电话：<span>03358069840</span></span>
-		<span class="ads">地址：河北秦皇岛经济技术开发区珠江道21号</span>
-		<img src="images/common/login.jpg" class="login_img">
-		<span class="login">登录/注册</span>
-	</div>
-<!-- **************************** header主要 ********************************* -->	
-	<div class="head_content">
-		<img src="images/common/logo.png" class="logo">
-		<div class="nav">
-			<a href="index.html">首页</a>
-			<a href="html/learn.html">学习理念</a>
-			<a href="html/teacher.html">师资团队</a>
-			<a href="html/course.html">课程介绍</a>
-			<a href="html/msg.html">关于我们</a>
-		</div>
-	</div>
-<!-- **************************** 轮播图 ********************************* -->	
-	<ul class="carousel">
-		<li class="first">
-			<img src="images/HomePage/carousel_1.jpg" class="animated fadeInRight carousel_img">
-		</li>
-		<li class="second">
-			<img src="images/HomePage/carousel_2.jpg" class="animated fadeInRight carousel_img">
-		</li>
-		<li class="third">
-			<img src="images/HomePage/carousel_3.jpg" class="animated fadeInLeft carousel_img">
-		</li>
-	</ul>
-<!-- **************************** 我们的优势 ********************************* -->
-	<div class="advantage">
-		<div class="advantage_title">
-			<span class="title_txt">我们的优势</span>
-			<span class="bar"></span>
-		</div>
-		<div class="advantage_content clearfix">
-			<div class="ad_content">
-				<img src="images/HomePage/adv_1.jpg" class="advantage_img">
-				<span class="advantage_content_title">资深英语外教纯正发音</span>
-				<span class="bar"></span>
-				<span class="text">风趣横生的资深外教，100%来自英语为母语或官方语言的国家，纯正的英文发音让孩子接受地道英语的熏陶，告别中国式英语，爱上英语学习。</span>
-			</div>
-			<div class="ad_content">
-				<img src="images/HomePage/adv_2.jpg" class="advantage_img">
-				<span class="advantage_content_title">母语化教学互动式学习</span>
-				<span class="bar"></span>
-				<span class="text">纯外教授课，浸入式的语言环境，与外教实时互动学习，实时纠错，远离汉语干扰，快速建立英语思维，让孩子开口说英语。</span>
-			</div>
-			<div class="ad_content">
-				<img src="images/HomePage/adv_3.jpg" class="advantage_img">
-				<span class="advantage_content_title">一对一个性化教学</span>
-				<span class="bar"></span>
-				<span class="text">外教一对一，量身定制个性化的教材和教学计划，让孩子获得更好的学习体验。班主任无论课前、课中还是课后，为孩子和家长及时解决各种问题，确保达到最佳学习效果。</span>
-			</div>
-			<div class="ad_content">
-				<img src="images/HomePage/adv_4.jpg" class="advantage_img">
-				<span class="advantage_content_title">短时轻松高效</span>
-				<span class="bar"></span>
-				<span class="text">每节课20分钟左右，随时随地利用碎片时间进行学习，高频练习，有针对性、轻松高效的学习，当然速见成效。</span>
-			</div>
-		</div>
-		<div class="advantage_btn">
-			<a href="html/course.html"><span>Get More</span></a>
-		</div>
-	</div>
-<!-- **************************** 我们的愿景 ********************************* -->
-		<div class="hope">
-			<div class="h_part1">
-				<div class="hope_left">
-					<p>When you work full-time while studying, you need to sacrifice personal time, which meant that I took my studies seriously. My ambition was not only to complete my degree successfully but to make the best out of the time spent studying.</p>
-					<p>Debra Banks</p>
-					<p>Diploma for Graduates in Management, USA</p>
-				</div>
-				<div class="hope_right hope_img1"></div>
-			</div>
-			<div class="h_part2">
-				<div class="hope_left">
-					<p>When I researched the programmes available I realized that the University was offering exactly the type of programme in international development that interested me.</p>
-					<p>Steven Alvarez</p>
-					<p>Diploma for Graduates in Management, USA</p>
-				</div>
-				<div class="hope_right hope_img2"></div>
-			</div>
-			<div>
-				<span class="hope_btn1 hope_btn_active"></span>
-				<span class="hope_btn2"></span>
-			</div>
-		</div>
-<!-- **************************** 我们的课程 ********************************* -->
-	<div class="course">
-		<div class="course_title">
-			<span class="title">我们的课程</span>
-			<span class="bar"></span>
-		</div>
-		<div class="course_box clearfix">
-			<div>
-				<div class="course_content mask1">
-					<div class="course_mask"></div>
-					<span class="btn1">青少儿英语课程</span>
-					<a href="" class="btn2">了解更多</a>
-				</div>
-				<div class="course_img C1"></div>
-				<div class="course_msg">
-					<div class="num num1"><span>1</span></div>
-					<span class="txt">青少儿英语课程</span>
-				</div>
-			</div>
-			<div>
-				<div class="course_content mask2">
-					<div class="course_mask"></div>
-					<span class="btn1">自然拼读</span>
-					<a href="" class="btn2">了解更多</a>
-				</div>
-				<div class="course_img C2"></div>
-				<div class="course_msg">
-					<div class="num num2"><span>2</span></div>
-					<span class="txt">自然拼读</span>
-				</div>
-			</div>
-		</div>
-	</div>
-<!-- **************************** 师资团队 ********************************* -->
-	<div class="teacher">
-		<div class="teacher_title">
-			<span class="title">师资团队</span>
-			<span class="bar"></span>
-			<span class="txt">资深外教团队，来自美国、加拿大等英美系国家，具有国际专业英语教学资格认证（TEFL/TESOL）及不同行业背景，根据孩子的兴趣有针对性选择外教。</span>
-		</div>
-		<div class="tea_msg">
-			<ul>
-				<li>
-					<div>
-						<img src="images/HomePage/tea_1.jpg">
-					</div>
-					<span class="num" id="num_1"></span>
-					<span class="tea_bar"></span>
-					<span class="tea_txt">Graduates</span>
-				</li>
-				<li>
-					<div>
-						<img src="images/HomePage/tea_2.jpg">
-					</div>
-					<span class="num" id="num_2"></span>
-					<span class="tea_bar"></span>
-					<span class="tea_txt">Certified Teachers</span>
-				</li>
-				<li>
-					<div>
-						<img src="images/HomePage/tea_3.jpg">
-					</div>
-					<span class="num" id="num_3"></span>
-					<span class="tea_bar"></span>
-					<span class="tea_txt">Student Campuses</span>
-				</li>
-				<li>
-					<div>
-						<img src="images/HomePage/tea_4.jpg">
-					</div>
-					<span class="num" id="num_4"></span>
-					<span class="tea_bar"></span>
-					<span class="tea_txt">Students</span>
-				</li>
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div>
-<!-- **************************** 上课流程 ********************************* -->
-	<div class="gul">
-		<div class="gul_title">
-			<span class="title">上课流程</span>
-			<span class="txt">资深外教团队，来自美国、加拿大等英美系国家，具有国际专业英语教学资格认证（TEFL/TESOL）及不同行业背景，根据孩子的兴趣有针对性选择外教。</span>
-		</div>
-		<div class="gul_msg">
-			<ul>
-				<li class="gul_1">
-					<h5>1.注册成为我们的VIP会员</h5>
-					<span>已有超过800万名学员在51Talk感受英语提升的非凡效果！</span>
-					<img src="">
-				</li>
-				<li class="gul_2">
-					<h5>2. 选择适合您的课程和老师</h5>
-					<span>您可以自主约课，我们的学习顾问团队也会根据您的学习需求为您量身定制学习计划，推荐老师，并督促您不断进步。</span>
-					<img src="">
-				</li>
-				<li class="gul_3">
-					<h5>下载AC，开启英文学习之旅</h5>
-					<span>仅需2分钟，拥有强大的交互学习平台，实时翻译，在线互动，英语学习妙趣横生！</span>
-					<img src="">
-				</li>
-			</ul>			
-		</div>
-	</div>
-<!-- **************************** 合作伙伴 ********************************* -->
-	<div class="partner">
-		<div class="partner_title">
-			<span class="title">合作伙伴</span>
-			<span class="bar"></span>
-		</div>
-		<div class="partner_carousel clearfix">
-			<ul>
-				<li><img src="images/HomePage/partner1.jpg" class="partner_img"></li>
-				<li><img src="images/HomePage/partner2.jpg" class="partner_img"></li>
-				<li><img src="images/HomePage/partner3.jpg" class="partner_img"></li>
-				<li><img src="images/HomePage/partner4.jpg" class="partner_img"></li>
-			</ul>
-		</div>
-	</div>
-<!-- **************************** footer ********************************* -->
-		<div class="footer">
-			<div class="footer_header">
-				<div>
-					<div class="footer_content">
-						<span><img src="images/common/phone.png">客服电话</span>
-						<span>0335-8069840</span>
-						<span>工作时间</span>
-						<span>周一至周六 09:00~22:00</span>				
-					</div>
-					<div class="footer_mask"></div>
-					<img class="footer_img" src="images/common/map.jpg">
-				</div>
-			</div>
-			<div class="footer_footer">
-				<ul class="footer_msg">
-					<li><a href="html/msg.html">关于我们</a></li>
-					<li><a href="html/msg.html">联系我们</a></li>
-					<li><a href="html/msg.html">加入我们</a></li>
-					<li><a href="html/msg.html">常用软件</a></li>
-					<li><a href="html/msg.html">常见问题</a></li>
-				</ul>
-				<span class="bar"></span>
-				<ul>
-					<li><span>© 新大陆教育集团 冀ICP备 14002500号</span></li>
-					<li><span class="footer_icon"></span></li>
-					<li><span>京公网安备 11010102001980号</span></li>
-				</ul>
-				<span>技术支持：秦皇岛锐基网络工程有限公司</span>
-			</div>
-		</div>
-<!-- **************************** javascript ********************************* -->
-	<script type="text/javascript" src="lib/jquery.min.js"></script>
-	<script type="text/javascript" src="lib/jquery.edslider.js"></script>
-	<script type="text/javascript" src="js/HomePage.js"></script>
-	<script type="text/javascript" src="js/common_login.js"></script>
-	<script type="text/javascript" src="js/headerEffect.js"></script>
-	<script type="text/javascript" src="js/HomePageEffect.js"></script>
+    <!-- **************************** 注册登录 ********************************* -->
+    <div id="bg" class="hide"></div>
+    <div id="log-reg" class="hide le_window">
+        <div class="header">
+            <img class="le_logo" src="images/common/logo.png">
+            <img class="close" id="close" src="images/common/exit.png">
+            <span class="le_bar"></span>
+        </div>
+        <div class="bodyer">
+            <div class="form">
+                <form name="log" class="log" autocomplete="off" method="post">
+                    <div class="form-group le_tel">
+                        <img class="form-tel" src="images/common/email.jpg">
+                        <span class="form-bar"></span>
+                        <input type="text" id="log-phone" placeholder="请输入您注册的手机号" />
+                        <label class="userTxt">用户名错误</label>
+                    </div>
+                    <div class="form-group le_pass">
+                        <img class="form-pass" src="images/common/pass.jpg">
+                        <span class="form-bar"></span>
+                        <input type="password" id="log-password" placeholder="请输入您的密码" />
+                        <label class="passTxt">密码错误</label>
+                    </div>
+                    <div class="forgPass">
+                        <div class="auto_cache">
+                            <input type="checkbox" id="cache" name="auto_cache"></input>
+                            <span>下次自动登录(维持14日)</span>
+                        </div>
+                        <a href="">忘记密码</a>
+                    </div>
+                    <div>
+                        <input id="log-jump" type="hidden" name="jump" value="">
+                        <a id="enter" class="btn">登录|Login</a>
+                    </div>
+                    <div>
+                        <a href="" class="le_reg">立即注册&rsaquo;&rsaquo;</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- **************************** header信息 ********************************* -->
+    <div class="head_msg">
+        <span class="tel">电话：<span>03358069840</span></span>
+        <span class="ads">地址：河北秦皇岛经济技术开发区珠江道21号</span>
+        <img src="images/common/login.jpg" class="login_img">
+        <span class="login">登录/注册</span>
+    </div>
+    <!-- **************************** header主要 ********************************* -->
+    <div class="head_content">
+        <img src="images/common/logo.png" class="logo">
+        <div class="nav">
+            <a href="index.html">首页</a>
+            <a href="html/learn.html">学习理念</a>
+            <a href="html/teacher.html">师资团队</a>
+            <a href="html/course.html">课程介绍</a>
+            <a href="html/msg.html">关于我们</a>
+        </div>
+    </div>
+    <!-- **************************** 轮播图 ********************************* -->
+    <ul class="carousel">
+        <li class="first">
+            <div class="animated fadeInRight first_txt1">Letalk 乐滔英语</div>
+            <div class="animated fadeInLeft first_txt2">英语口语培训专家</div>
+            <span class="animated fadeInRight carousel_btn1">登录|Login</span>
+            <a class="animated fadeInLeft carousel_btn2" href="html/course.html">Learn more</a>
+        </li>
+        <li class="second">
+            <div class="animated fadeInLeft second_txt1">资深英语外教</div>
+            <div class="animated fadeInRight second_txt2">纯正母语发音</div>
+            <span class="animated fadeInLeft carousel_btn1">登录|Login</span>
+            <a class="animated fadeInRight carousel_btn2" href="html/course.html">Learn more</a>
+        </li>
+        <li class="third">
+            <div class="animated fadeInRight third_txt1">美国教材</div>
+            <div class="animated fadeInLeft third_txt2">同步美国课程框架</div>
+            <span class="animated fadeInRight carousel_btn1">登录|Login</span>
+            <a class="animated fadeInLeft carousel_btn2" href="html/course.html">Learn more</a>
+        </li>
+    </ul>
+    <!-- **************************** 我们的优势 ********************************* -->
+    <div class="advantage">
+        <div class="advantage_title">
+            <span class="title_txt">我们的优势</span>
+            <span class="bar"></span>
+        </div>
+        <div class="advantage_content clearfix">
+            <div class="ad_content">
+                <img src="images/HomePage/adv_1.jpg" class="advantage_img">
+                <span class="advantage_content_title">资深英语外教纯正发音</span>
+                <span class="bar"></span>
+                <span class="text">风趣横生的资深外教，100%来自英语为母语或官方语言的国家，纯正的英文发音让孩子接受地道英语的熏陶，告别中国式英语，爱上英语学习。</span>
+            </div>
+            <div class="ad_content">
+                <img src="images/HomePage/adv_2.jpg" class="advantage_img">
+                <span class="advantage_content_title">母语化教学互动式学习</span>
+                <span class="bar"></span>
+                <span class="text">纯外教授课，浸入式的语言环境，与外教实时互动学习，实时纠错，远离汉语干扰，快速建立英语思维，让孩子开口说英语。</span>
+            </div>
+            <div class="ad_content">
+                <img src="images/HomePage/adv_3.jpg" class="advantage_img">
+                <span class="advantage_content_title">一对一个性化教学</span>
+                <span class="bar"></span>
+                <span class="text">外教一对一，量身定制个性化的教材和教学计划，让孩子获得更好的学习体验。班主任无论课前、课中还是课后，为孩子和家长及时解决各种问题，确保达到最佳学习效果。</span>
+            </div>
+            <div class="ad_content">
+                <img src="images/HomePage/adv_4.jpg" class="advantage_img">
+                <span class="advantage_content_title">短时轻松高效</span>
+                <span class="bar"></span>
+                <span class="text">每节课20分钟左右，随时随地利用碎片时间进行学习，高频练习，有针对性、轻松高效的学习，当然速见成效。</span>
+            </div>
+        </div>
+        <div class="advantage_btn">
+            <a href="html/course.html"><span>Get More</span></a>
+        </div>
+    </div>
+    <!-- **************************** 我们的愿景 ********************************* -->
+    <div class="hope">
+        <div class="h_part1">
+            <div class="hope_left">
+                <p>When I researched the programmes available I realized that the University was offering exactly the type of programme in international development that interested me.</p>
+                <p>Steven Alvarez</p>
+                <p>Diploma for Graduates in Management, USA</p>
+            </div>
+            <div class="hope_right hope_img1"></div>
+        </div>
+        <div class="h_part2">
+            <div class="hope_left">
+                <p>When I researched the programmes available I realized that the University was offering exactly the type of programme in international development that interested me.</p>
+                <p>Steven Alvarez</p>
+                <p>Diploma for Graduates in Management, USA</p>
+            </div>
+            <div class="hope_right hope_img2"></div>
+        </div>
+        <div>
+            <span class="hope_btn1 hope_btn_active"></span>
+            <span class="hope_btn2"></span>
+        </div>
+    </div>
+    <!-- **************************** 我们的课程 ********************************* -->
+    <div class="course">
+        <div class="course_title">
+            <span class="title">我们的课程</span>
+            <span class="bar"></span>
+        </div>
+        <div class="course_box clearfix">
+            <div>
+                <div class="course_content mask1">
+                    <div class="course_mask"></div>
+                    <span class="btn1">青少儿英语课程</span>
+                    <a href="" class="btn2">了解更多</a>
+                </div>
+                <div class="course_img C1"></div>
+                <div class="course_msg">
+                    <div class="num num1"><span>Course</span></div>
+                    <span class="txt">青少儿英语课程</span>
+                </div>
+            </div>
+            <div>
+                <div class="course_content mask2">
+                    <div class="course_mask"></div>
+                    <span class="btn1">自然拼读课程</span>
+                    <a href="" class="btn2">了解更多</a>
+                </div>
+                <div class="course_img C2"></div>
+                <div class="course_msg">
+                    <div class="num num2"><span>Course</span></div>
+                    <span class="txt">自然拼读课程</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- **************************** 师资团队 ********************************* -->
+    <div class="teacher">
+        <div class="teacher_title">
+            <span class="title">师资团队</span>
+            <span class="bar"></span>
+            <span class="txt">资深外教团队，来自美国、加拿大等英美系国家，具有国际专业英语教学资格认证（TEFL/TESOL）及不同行业背景，根据孩子的兴趣有针对性选择外教。</span>
+        </div>
+        <div class="tea_msg">
+            <ul>
+                <li>
+                    <div>
+                        <img src="images/HomePage/tea_1.jpg">
+                    </div>
+                    <span class="num" id="num_1"></span>
+                    <span class="tea_bar"></span>
+                    <span class="tea_txt">Graduates</span>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/HomePage/tea_2.jpg">
+                    </div>
+                    <span class="num" id="num_2"></span>
+                    <span class="tea_bar"></span>
+                    <span class="tea_txt">Certified Teachers</span>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/HomePage/tea_3.jpg">
+                    </div>
+                    <span class="num" id="num_3"></span>
+                    <span class="tea_bar"></span>
+                    <span class="tea_txt">Student Campuses</span>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/HomePage/tea_4.jpg">
+                    </div>
+                    <span class="num" id="num_4"></span>
+                    <span class="tea_bar"></span>
+                    <span class="tea_txt">Students</span>
+                </li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!-- **************************** 上课流程 ********************************* -->
+    <div class="gul">
+        <div class="gul_title">
+            <span class="title">上课流程</span>
+            <span class="txt">资深外教团队，来自美国、加拿大等英美系国家，具有国际专业英语教学资格认证（TEFL/TESOL）及不同行业背景，根据孩子的兴趣有针对性选择外教。</span>
+        </div>
+        <div class="gul_msg">
+            <ul>
+                <li class="gul_1">
+                    <h5>1.立即注册，成为Letalk会员</h5>
+                    <img src="images/HomePage/gul_1.jpg" alt="上课流程">
+                </li>
+                <li class="gul_2">
+                    <h5>2.选择教材、外教、上课时间与工具</h5>
+                    <img src="images/HomePage/gul_2.jpg" alt="上课流程">
+                </li>
+                <li class="gul_3">
+                    <h5>3.登录上课工具，开始上课</h5>
+                    <img src="images/HomePage/gul_3.jpg" alt="上课流程">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- **************************** 合作伙伴 ********************************* -->
+    <div class="partner">
+        <div class="partner_title">
+            <span class="title">合作伙伴</span>
+            <span class="bar"></span>
+        </div>
+        <div class="partner_carousel clearfix">
+            <ul>
+                <li><img src="images/HomePage/partner1.jpg" class="partner_img"></li>
+                <li><img src="images/HomePage/partner2.jpg" class="partner_img"></li>
+                <li><img src="images/HomePage/partner3.jpg" class="partner_img"></li>
+                <li><img src="images/HomePage/partner4.jpg" class="partner_img"></li>
+            </ul>
+        </div>
+    </div>
+    <!-- **************************** footer ********************************* -->
+    <div class="footer">
+        <div class="footer_header">
+            <div>
+                <div class="footer_content">
+                    <span><img src="images/common/phone.png">客服电话</span>
+                    <span>0335-8069840</span>
+                    <span>工作时间</span>
+                    <span>周一至周六 09:00~22:00</span>
+                </div>
+                <div class="footer_mask"></div>
+                <img class="footer_img" src="images/common/map.jpg">
+            </div>
+        </div>
+        <div class="footer_footer">
+            <ul class="footer_msg">
+                <li><a href="html/msg.html">关于我们</a></li>
+                <li><a href="html/msg.html">联系我们</a></li>
+                <li><a href="html/msg.html">加入我们</a></li>
+                <li><a href="html/msg.html">常用软件</a></li>
+                <li><a href="html/msg.html">常见问题</a></li>
+            </ul>
+            <span class="bar"></span>
+            <ul>
+                <li><span>© 新大陆教育集团 冀ICP备 14002500号</span></li>
+                <li><span class="footer_icon"></span></li>
+                <li><span>京公网安备 11010102001980号</span></li>
+            </ul>
+            <span>技术支持：秦皇岛锐基网络工程有限公司</span>
+        </div>
+    </div>
+    <!-- **************************** javascript ********************************* -->
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.edslider.js"></script>
+    <script type="text/javascript" src="js/common_login.js"></script>
+    <script type="text/javascript" src="js/headerEffect.js"></script>
+    <script type="text/javascript" src="js/HomePage.js"></script>
+    <script type="text/javascript" src="js/HomePageEffect.js"></script>
 </body>
+
 </html>
