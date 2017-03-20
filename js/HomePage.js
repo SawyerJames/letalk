@@ -2,7 +2,7 @@
 $(function() {
     //param-----------------------------------//
     var carouselBtn = $('.carousel_btn1'),
-        // logoBtn = $('.logo'),
+        adv_Btn = $('.advantage_btn').find('span'),
         c1 = $('.C1'),
         c2 = $('.C2'),
         course_content1 = $('.mask1'),
@@ -30,7 +30,7 @@ $(function() {
         course2();
         hope_chick();
         gul();
-        // logoBtn();
+        advBtn();
     }
     // function login chick event-----------------------------------//
     exit.on('click', function() {
@@ -41,12 +41,13 @@ $(function() {
         bodyMask.css('display', 'none');
         le_window.css('display', 'none');
     });
-    // function logo chick event-----------------------------------//
-    // function logoBtn () {
-    // 	logo_Btn.on('click',function () {
-    // 		location.href = 'index.html';
-    // 	});
-    // }
+    // function adv chick event-----------------------------------//
+    function advBtn () {
+    	adv_Btn.on('click',function () {
+            bodyMask.css('display', 'block');
+            le_window.css('display', 'block');    		
+    	});
+    }
     // header carousel function-----------------------------------//
     function edslider() {
         $('.carousel').edslider({

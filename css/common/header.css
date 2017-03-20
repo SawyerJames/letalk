@@ -1,13 +1,18 @@
 /*-------------------------------part common------------------------------------*/
 
 body {
-    font-family: 'Microsoft YaHei', "SimHei";
+    font-family:'Microsoft YaHei',"STHeiti","Microsoft JhengHei","SimHei";
     color: #000000;
     height: 100%;
     width: 100%;
     position: relative;
 }
-
+html{
+    min-width: 1200px;
+    height: 100%;
+    overflow-x:auto;
+    overflow-y:auto;
+}
 
 /*-------------------------------part head_msg------------------------------------*/
 

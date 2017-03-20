@@ -58,28 +58,28 @@ $(function() {
         a = a + 1;
         var o = document.getElementById('num_1');
         o.innerHTML = a.toString() + "%";
-        if (a < 120) setTimeout(num_1, 10);
+        if (a < 100) setTimeout(num_1, 10);
     }
 
     function num_2() {
         b = b + 1;
         var o = document.getElementById('num_2');
         o.innerHTML = b.toString() + "%";
-        if (b < 92) setTimeout(num_2, 10);
+        if (b < 2.5) setTimeout(num_2, 10);
     }
 
     function num_3() {
         c = c + 1;
         var o = document.getElementById('num_3');
-        o.innerHTML = c.toString() + "%";
-        if (c < 97) setTimeout(num_3, 10);
+        o.innerHTML = c.toString() + "+";
+        if (c < 1200) setTimeout(num_3, 1);
     }
 
     function num_4() {
         d = d + 1;
         var o = document.getElementById('num_4');
-        o.innerHTML = d.toString() + "%";
-        if (d < 90) setTimeout(num_4, 10);
+        o.innerHTML = d.toString() + "+";
+        if (d < 150) setTimeout(num_4, 10);
     }
     var onceCounter = once(function() {
         num_1();
