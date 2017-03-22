@@ -159,6 +159,46 @@ html{
     vertical-align: top;
     margin: 2px 5px 0 0;
 }
+.regForm p:nth-child(11){
+    margin-left: -7px;
+}
+.regForm p:nth-child(12){
+    margin:10px 0 16px 5px;
+    height: 24px;
+    font-size: 12px;
+}
+.regForm p:nth-child(12) a{
+    color: #b60f29;
+}
+.regForm p:nth-child(5){
+    margin-bottom: 20px;
+}
+.regForm h1{
+    margin: 30px auto 10px;
+    font-size: 26px;
+    font-weight: normal;
+    color: #b60f29;
+}
+.regForm h5{
+    margin: 25px auto 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color:  #b60f29;
+}
+hr{
+    height: 1px;
+    border: none;
+    border-top: 1px dashed #C9C9C9;
+}
+.regForm #reg-validation{
+    width: 200px;
+}
+.regForm .verifyImg{
+    vertical-align: middle;
+    border: 1px solid #BFBFBF;
+    width: 75px;
+    height: 35px;
+}
 .regForm .ageContent{
     display: inline-block;
     margin: 0 0 0 6px;
@@ -201,52 +241,16 @@ html{
 .regForm .radio_girl{
     left: 38px;
 }
+.regForm .ageRight input{
+    vertical-align: middle;
+    width: 91%;
+    height: 35px;
+    font-size: 14px;
+    color: #5E5E5E;
+}
 .ageRight{
     display: inline-block;
     vertical-align: middle;
     height: 35px;
     width: 63%;
-}
-.regForm select{
-    vertical-align: middle;
-    width: 100%;
-    height: 35px;
-    font-size: 14px;
-    color: #5E5E5E;
-}
-.regForm p:nth-child(11){
-    margin:0 0 20px 5px;
-    height: 24px;
-    font-size: 12px;
-}
-.regForm p:nth-child(11) a{
-    color: #b60f29;
-}
-.regForm p:nth-child(4){
-    margin-bottom: 20px;
-}
-.regForm h1{
-    margin: 30px auto 10px;
-    font-size: 26px;
-    font-weight: normal;
-    color: #b60f29;
-}
-.regForm h5{
-    margin: 25px auto 10px;
-    font-size: 14px;
-    font-weight: normal;
-    color:  #b60f29;
-}
-hr{
-    height: 1px;
-    border: none;
-    border-top: 1px dashed #C9C9C9;
-}
-.regForm #reg-validation{
-    width: 200px;
-}
-.regForm .verifyImg{
-    vertical-align: middle;
-    width: 75px;
-    height: 35px;
 }

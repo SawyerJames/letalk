@@ -25,35 +25,58 @@
     validator = $("#reg").validate({
         debug: true,
         rules: {
-            "reg-phone": {
+            "reg-email": {
                 required: true,
-                minlength: 11,
-                maxlength: 11
+                email:true
             },
             "reg-password": {
                 required: true,
                 minlength: 2,
-                maxlength: 16
+                maxlength: 8
             },
             "reg-passconfirm": {
+                required: true,
                 equalTo: "#reg-password"
+            },
+            "reg-validation": {
+                required: true,
+            },            
+            "reg-phone": {
+                minlength: 11,
+                maxlength: 11
+            },
+            "reg-Ophone": {
+                minlength: 11,
+                maxlength: 11
             }
         },
         messages: {
+            "reg-email": {
+                required: '请输入邮箱账号',
+                email: '邮箱格式不正确'
+            },           
             "reg-phone": {
-                required: '请输入手机号',
                 minlength: '手机号位数不为11位',
                 maxlength: '手机号位数不为11位',
                 remote: '手机号不存在'
             },
+            "reg-Ophone": {
+                minlength: '手机号位数不为11位',
+                maxlength: '手机号位数不为11位',
+                remote: '手机号不存在'
+            },           
             "reg-password": {
                 required: '请输入密码',
                 minlength: '密码不能小于2个字符',
-                maxlength: '密码不能超过16个字符'
+                maxlength: '密码不能超过8个字符'
             },
             "reg-passconfirm": {
+                required: '请再次输入密码',
                 equalTo: "两次输入密码不一致"
-            }
+            },
+            "reg-validation": {
+                required: '请输入验证码',
+            } 
         },
     });
     // function radio & judge chick event-----------------------------------//
@@ -81,6 +104,8 @@
             $(".boy").css({'background':'#ffffff','color':'#5E5E5E'});
         }
     }
+    // function date event-----------------------------------//
+     $("#regDate").calendar();
     // function main event-----------------------------------//
     function main () {
         radioClick();
