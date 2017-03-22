@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width,minimum-scale=1,maximum-scale=1'>
+	<title>乐滔英语注册页</title>
+    <link rel="stylesheet" type="text/css" href="../css/common/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/common/le_window.css">
+    <link rel="stylesheet" type="text/css" href="../css/common/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
+</head>
+<body>
+	 <!-- **************************** 注册登录 ********************************* -->
+    <div id="bg" class="hide"></div>
+    <div id="log-reg" class="hide le_window">
+        <div class="header">
+            <img class="le_logo" src="../images/common/logo.png">
+            <img class="close" id="close" src="../images/common/exit.png">
+            <span class="le_bar"></span>
+        </div>
+        <div class="bodyer">
+            <div class="form">
+                <form name="log" class="log" autocomplete="off" method="post">
+                    <div class="form-group le_tel">
+                        <img class="form-tel" src="../images/common/email.jpg">
+                        <span class="form-bar"></span>
+                        <input type="text" id="log-phone" placeholder="请输入您注册的手机号" />
+                        <label class="userTxt">用户名错误</label>
+                    </div>
+                    <div class="form-group le_pass">
+                        <img class="form-pass" src="../images/common/pass.jpg">
+                        <span class="form-bar"></span>
+                        <input type="password" id="log-password" placeholder="请输入您的密码" />
+                        <label class="passTxt">密码错误</label>
+                    </div>
+                    <div class="forgPass">
+                        <div class="auto_cache">
+                            <input type="checkbox" id="cache" name="auto_cache"></input>
+                            <span>下次自动登录(维持14日)</span>
+                        </div>
+                        <a href="">忘记密码</a>
+                    </div>
+                    <div>
+                        <input id="log-jump" type="hidden" name="jump" value="">
+                        <a id="enter" class="btn">登录|Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- **************************** header信息 ********************************* -->
+    <div class="head_msg">
+        <span class="tel">电话：<span>03358069840</span></span>
+        <span class="ads">地址：河北秦皇岛经济技术开发区珠江道21号</span>
+    </div>
+    <!-- **************************** header主要 ********************************* -->
+    <div class="head_content">
+        <img src="../images/common/logo.png" class="logo">
+		<span>已有账号？<span class="loginBtn">登录</span></span>
+    </div>
+     <!-- **************************** content ********************************* -->
+ 	 <div class="regForm">
+        <form name="reg" class="reg" autocomplete="off" id="reg">
+        	<h1>注册账号</h1>
+        	<p>
+				<label for="email">邮箱</label>
+				<input type="text" id="reg-email" name="reg-email" placeholder="请填写您的常用邮箱，作为登录账号"/>
+			</p>
+			<p>
+				<label for="passname">密码</label>
+				<input type="password" id="reg-password" name="reg-password" placeholder="请输入密码"/>
+			</p>
+			<p>
+				<label for="passconfirm">确认密码</label>
+				<input type="password" id="reg-passconfirm" name="reg-passconfirm" placeholder="请再次输入密码"/>
+			</p>
+			<hr/>
+			<h5>请继续填写以下信息，以便获得更好的服务</h5>
+			<p>
+				<label for="name">姓名</label>
+				<input type="text" id="reg-name" name="reg-name" placeholder="请输入您的姓名"/>
+			</p>
+			<p>
+				<label for="age">性别年龄</label>
+				<span class="ageContent">
+					<span class="ageLeft">
+						<span class="boy">男</span>
+						<input type="radio" id="reg-sex" name="reg-sex" value="boy" class="radio_boy" />
+						<span class="girl">女</span>
+						<input type="radio" id="reg-sex" name="reg-sex" value="girl" class="radio_girl"/>
+					</span>
+					<span class="ageRight">
+						<select name="ageChoose">
+							<option>年龄</option>
+							<optgroup label="请选择">
+								<option value="1">345</option>
+								<option value="2">456</option>
+								<option value="3">456</option>
+							</optgroup>
+						</select>
+					</span>
+				</span>
+			</p>
+			<p>
+				<label for="phone">手机号码</label>
+           		<input type="text" id="reg-phone" name="reg-phone" placeholder="请填写手机号" autofocus="autofocus" />
+			</p>
+			<p>
+				<label for="validation">输入验证</label>
+                <input type="text" id="reg-validation" name="reg-validation" placeholder="请点击输入验证码"/>
+                <img id="reg-yanzheng-img" class="verifyImg" src="" alt="验证码"></img>
+            </p>
+        	<p>
+        		<input type="checkbox" id="agreement" name="agreement" checked="true" />
+				<span for="agreement">我已阅读并同意</span><a href="">《letalk用户注册协议》</a>
+            </p>
+            <p>
+                <input type="submit" id="reg-submit" name="reg-submit" value="立即注册"/>
+            </p>
+		</form>
+    </div>
+    <!-- **************************** footer ********************************* -->
+    <div class="footer">
+        <div class="footer_footer">
+            <ul class="footer_msg">
+                <li><a href="msg.html">关于我们</a></li>
+                <li><a href="msg.html">联系我们</a></li>
+                <li><a href="msg.html">加入我们</a></li>
+                <li><a href="msg.html">常用软件</a></li>
+                <li><a href="msg.html">常见问题</a></li>
+            </ul>
+            <span class="bar"></span>
+            <ul>
+                <li><span>© 新大陆教育集团 冀ICP备 14002500号</span></li>
+                <li><span class="footer_icon"></span></li>
+                <li><span>京公网安备 11010102001980号</span></li>
+            </ul>
+            <span>技术支持：秦皇岛锐基网络工程有限公司</span>
+        </div>
+    </div>
+    <!-- **************************** javascript ********************************* -->
+    <script type="text/javascript" src="../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../lib/jquery.validate-1.13.1.js"></script>
+    <script type="text/javascript" src="../js/register.js"></script>
+</body>
+</html>

@@ -81,7 +81,9 @@
     border-right: 3px dashed #0e2e5f;
     text-align: justify;
 }
-
+.tab_about{
+    text-indent: 2em;
+}
 .tab_contact {
     display: none;
 }

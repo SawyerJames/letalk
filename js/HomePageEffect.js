@@ -65,7 +65,7 @@ $(function() {
         b = b + 1;
         var o = document.getElementById('num_2');
         o.innerHTML = b.toString() + "%";
-        if (b < 2.5) setTimeout(num_2, 10);
+        if (b < 5) setTimeout(num_2, 10);
     }
 
     function num_3() {

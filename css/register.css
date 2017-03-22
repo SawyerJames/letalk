@@ -1,0 +1,252 @@
+/*-------------------------------part common------------------------------------*/
+
+body {
+    font-family:'Microsoft YaHei',"STHeiti","Microsoft JhengHei","SimHei";
+    color: #000000;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+html{
+    min-width: 1200px;
+    height: 100%;
+    overflow-x:auto;
+    overflow-y:auto;
+}
+/*-------------------------------part head_msg------------------------------------*/
+
+.head_msg {
+    height: 40px;
+    width: 100%;
+    background-color: #0e2e5f;
+    font-size: 12px;
+}
+
+.tel,
+.ads,
+.register {
+    color: #f6f7fb;
+    display: inline-block;
+    margin: 12px 0 16px 0;
+}
+
+.tel {
+    margin-left: 82px;
+}
+
+.ads {
+    margin-left: 24px;
+}
+/*-------------------------------part head_content------------------------------------*/
+
+.head_content {
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 10;
+    font-size: 14px;
+}
+
+.logo {
+    display: inline-block;
+    height: 50px;
+    width: 180px;
+    margin:20px 0 20px 100px;
+}
+.head_content h2{
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: top;
+    margin: 34px 0 0 30px;
+    color: #b60f29;
+}
+.head_content>span{
+    display: inline-block;
+    vertical-align: top;
+    margin: 35px 0 0 60%;
+    color: #b60f29;
+}
+.head_content .loginBtn{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align:center;
+    border-radius: 15px;
+    color: #b60f29;
+    margin-left:10px;
+    cursor: pointer;
+    background: #F4F4F4;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.loginBtn:hover{
+    background: #0e2e5f;
+    color: #ffffff;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+/*-------------------------------part content------------------------------------*/
+.regForm{
+    display: inline-block;
+    width: 100%;
+    height: 800px;
+    background: #f6f7fb;
+}
+.regForm form{
+    width: 50%;
+    height:auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.regForm p{
+    padding: 5px;
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+    position: relative;
+}
+.regForm label{
+    position: static;
+    display: inline-block;
+    line-height: 55px;
+    font-size: 14px;
+    text-align: center;
+    min-width: 56px;
+    color: #2F2F2F;
+}
+.regForm label.error{
+    border: none;
+    font-size: 12px;
+    color:#0E9BF6;
+    height: 20px;
+    position: absolute;
+    top: 38px;
+    left: 250px;
+}
+.regForm input{
+    margin: 0 0 0 6px;
+    vertical-align: middle;
+    width: 280px;
+    height: 35px;
+    border: 1px solid #BFBFBF;
+    padding-left: 10px;
+}
+.regForm input[type="submit"]{
+    margin-left: 67px;
+    border: none;
+    background: #4372BA;
+    width: 292px;
+    height: 35px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+    -webkit-transition: background .3s;
+    -o-transition: background .3s;
+    transition: background .3s;
+}
+.regForm input[type="submit"]:hover{
+     background: #0e2e5f;
+    -webkit-transition: background .3s;
+    -o-transition: background .3s;
+    transition: background .3s;
+}
+.regForm input[type="checkbox"]{
+    width: 14px;
+    height: 14px;
+    vertical-align: top;
+    margin: 2px 5px 0 0;
+}
+.regForm .ageContent{
+    display: inline-block;
+    margin: 0 0 0 6px;
+    vertical-align: middle;
+    width: 290px;
+    height: 35px;
+}
+.ageLeft{
+    display: inline-block;
+    height: 35px;
+    width: 35%;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: -2px;
+    position: relative;
+}
+.boy,.girl{
+    display: inline-block;
+    text-align: center;
+    width: 35px;
+    height: 33px;
+    line-height: 31px;
+    border: 1px solid #BFBFBF;
+    background: #ffffff;
+    opacity: 1;
+    position: relative;
+    font-size: 14px;
+    color: #5E5E5E;
+}
+.regForm input[type="radio"]{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    z-index: 10;
+}
+.regForm .radio_boy{
+    left: -5px;
+}
+.regForm .radio_girl{
+    left: 38px;
+}
+.ageRight{
+    display: inline-block;
+    vertical-align: middle;
+    height: 35px;
+    width: 63%;
+}
+.regForm select{
+    vertical-align: middle;
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    color: #5E5E5E;
+}
+.regForm p:nth-child(11){
+    margin:0 0 20px 5px;
+    height: 24px;
+    font-size: 12px;
+}
+.regForm p:nth-child(11) a{
+    color: #b60f29;
+}
+.regForm p:nth-child(4){
+    margin-bottom: 20px;
+}
+.regForm h1{
+    margin: 30px auto 10px;
+    font-size: 26px;
+    font-weight: normal;
+    color: #b60f29;
+}
+.regForm h5{
+    margin: 25px auto 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color:  #b60f29;
+}
+hr{
+    height: 1px;
+    border: none;
+    border-top: 1px dashed #C9C9C9;
+}
+.regForm #reg-validation{
+    width: 200px;
+}
+.regForm .verifyImg{
+    vertical-align: middle;
+    width: 75px;
+    height: 35px;
+}
