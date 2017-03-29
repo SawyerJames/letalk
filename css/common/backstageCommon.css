@@ -1,0 +1,134 @@
+/*-------------------------------part common------------------------------------*/
+
+body {
+    font-family:'Microsoft YaHei',"STHeiti","Microsoft JhengHei","SimHei";
+    color: #000000;
+    height: 100%;
+    width: 100%;
+    background: #f6f7fb;
+    position: relative;
+}
+html{
+    min-width: 1200px;
+    height: 100%;
+    overflow-x:auto;
+    overflow-y:auto;
+}
+/*-------------------------------part content------------------------------------*/
+.content{
+    width: 100%;
+    height: auto;
+}
+/*-------------------------------part head--------------------------------------------*/
+.header{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+	background: #0e2e5f;
+	position: relative;
+}
+.header span{
+	position: absolute;
+	left: 260px;
+}
+.header span a{
+	padding: 0 10px;
+	border-right: 1px solid #7B7B7B;
+}
+.header span a:last-child{
+	border: none;
+}
+.header a{
+	color: #ffffff;
+}
+.header a:hover{
+	color: #E6E6E6;
+}
+.header ul {
+	position: absolute;
+	right: 260px;
+	display: inline-block;
+}
+.header ul li{
+	display: inline-block;
+	margin: 0 10px;
+}
+/*-------------------------------part head_content------------------------------------*/
+
+.head_content {
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom:2px solid #0e2e5f;
+}
+
+.logo {
+    height: 50px;
+    width: 180px;
+    margin:15px 0 0 220px;
+}
+
+.nav {
+    position: absolute;
+    right: 200px;
+    top: 45px;
+    display: inline-block;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.nav a {
+    margin-right: 36px;
+    color: #0e2e5f;
+    cursor: pointer;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+.nav a:hover {
+    color: #b60f29;
+    text-decoration: none;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+.nav a:last-child {
+    margin-right: 0;
+}
+/*-------------------------------part footer------------------------------------*/
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #B8B8B8;
+    background: #2F2F2F;
+}
+.footer a{
+    color: #B8B8B8;
+    padding: 0 10px;
+    border-right: 1px solid #D8D8D8;
+}
+.footer li:nth-child(5) a{
+    border: none;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul{
+    width: auto;
+    margin-left: 100px;
+    position: relative;
+}
+.footer span{
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
