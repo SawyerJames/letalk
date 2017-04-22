@@ -1,0 +1,90 @@
+.nav a:nth-child(4){
+	position: relative;
+    color: #b60f29;
+}
+.nav .triangle{
+	position: absolute;
+	bottom: -30px;
+	left: 20px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #0e2e5f;
+}
+.bodyer{
+	width: 100%;
+	height: 100%;
+	background: #f6f7fb;
+	text-align: center;
+	font-size: 14px;
+}
+.body_nav{
+	display: inline-block;
+	width: 15%;
+	margin:30px 30px 0;
+	padding: 20px 0;
+	background: #ffffff;
+	border: 1px solid #D4D4D4;
+	border-radius: 2px;
+	vertical-align: top;
+}
+.body_nav ul li a{
+	display: block;
+	margin:  15px 0;
+	color: #000000;
+}
+.body_nav ul li a:hover{
+	color: #E60629;
+}
+form {
+	display: inline-block;
+	width: 55%;
+	background: #ffffff;
+	text-align: left;
+	margin: 30px 0 50px 0;
+	border: 1px solid #D4D4D4;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px #C6C6C6;
+}
+form h3{
+	width: auto;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 30px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #b60f29;
+}
+form table{
+	width: 95%;
+	height: auto;
+	border: 1px solid #CBCBCB;
+	margin: 0 auto 5%;
+	text-align: center;
+}
+form table tr{
+	width: 100%;
+}
+form table th{
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #CBCBCB;
+	background: #E3E3E3;
+	color: #484848;
+}
+form table td{
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	border: 1px solid #CBCBCB;
+}
+form tbody tr:nth-child(odd){
+	background: none;
+}
+form tbody tr:nth-child(even){
+	background: #FFF7DC;
+}
