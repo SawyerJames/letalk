@@ -1,3 +1,12 @@
+form h2{
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	padding:0 0 10px 2.5%;
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: #0e2e5f;
+}
 form table{
 	width: 95%;
 	height: auto;
@@ -18,14 +27,14 @@ form table th{
 }
 form table td{
 	width: auto;
-	height: 30px;
+	min-height: 30px;
 	line-height: 30px;
 	font-size: 12px;
 	border: 1px solid #CBCBCB;
 }
-form tbody tr:nth-child(odd){
-	background: none;
+form table tr.noCord{
+	background: #9C9C9C !important;
 }
-form tbody tr:nth-child(even){
+form tbody tr{
 	background: #FFF7DC;
 }
