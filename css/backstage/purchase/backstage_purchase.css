@@ -42,9 +42,24 @@
 	display: inline-block;
 	font-weight: normal;
 	font-size: 16px;
+	position: relative;
+	color: #777777;
+}
+.bodyer .circle{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	background: #777777;
+	position: absolute;
+	bottom: -8px;
+	left: 40px;
 }
 .bodyer .current{
 	color: #FF8200;
+}
+.bodyer .circleCurrent{
+	background: #b60f29;
 }
 .lesson_1,.lesson_2{
 	margin-top: 2.5%;
